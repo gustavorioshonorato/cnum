@@ -1,4 +1,4 @@
-f(x) = 5*sin(x^2) - (MathConstants.e)^(x/10)
+f(x) = sqrt(x)-cos(x)
 error = 10^-5
  
 function bisection(a,b)  
@@ -8,7 +8,6 @@ function bisection(a,b)
       a = x  
     else
       b = x
-      
     end
     x = (a+b)/2
   end
